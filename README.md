@@ -1,78 +1,70 @@
-Project Management Application
-This is a full-stack project management application that allows users to create, manage, and update projects and tasks. The backend is built using .NET Core with Entity Framework and JWT authentication, while the frontend is built using React.
+# Getting Started with Create React App
 
-Table of Contents
-Features
-Prerequisites
-Installation
-Backend Setup
-Frontend Setup
-Running the Application
-Additional Notes
-Features
-Backend (ASP.NET Core)
-CRUD operations for Projects and Tasks.
-Role-Based Access Control (RBAC):
-Managers can create projects and tasks.
-Employees can only update tasks assigned to them.
-JWT-based Authentication and Authorization.
-REST API endpoints for managing projects and tasks.
-Endpoint for overdue tasks (tasks not marked as completed after their end date).
-Frontend (ReactJS)
-CRUD functionality for projects and tasks.
-Overdue task highlighting with visual indicators.
-JWT-based login system with role-specific access.
-User-friendly and minimalistic interface.
-Prerequisites
-Make sure you have the following installed:
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Backend
-.NET Core 6 SDK or later Download.
-SQL Server for database.
-Entity Framework Core for ORM.
-Frontend
-Node.js (v14.17.6 or later) Download.
-npm or yarn (comes with Node.js).
-Installation
-Step 1: Clone the repository
-bash
-Copy code
-git clone https://github.com/your-username/project-management-app.git
-cd project-management-app
-Backend Setup
-Step 2: Configure the Backend
-Navigate to the Backend directory:
+## Available Scripts
 
-bash
-Copy code
-cd Backend
-Database Setup:
+In the project directory, you can run:
 
-Open the appsettings.json file and configure the connection string to your SQL Server instance:
-json
-Copy code
-"ConnectionStrings": {
-  "DefaultConnection": "Server=your_server_name;Database=ProjectManagementDb;Trusted_Connection=True;MultipleActiveResultSets=true"
-}
-Run Migrations:
+### `npm start`
 
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
+### `npm test`
 
-Navigate to http://localhost:3000 to access the frontend.
-Additional Notes
-1. API Endpoints
-The following are some of the key API endpoints:
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Projects:
-GET /api/project: Fetch all projects.
-POST /api/project: Create a new project.
-PUT /api/project/{id}: Update a project.
-DELETE /api/project/{id}: Delete a project.
-Tasks:
-GET /api/task/project/{projectId}: Fetch tasks by project.
-POST /api/task: Create a new task.
-PUT /api/task/{id}: Update a task.
-DELETE /api/task/{id}: Delete a task.
-Authentication:
-POST /api/auth/login: Login and receive JWT.
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
