@@ -1,0 +1,14 @@
+E:\Traning\ProjectManagmentApp\DataLayer\bin\Debug\net8.0\DataLayer.deps.json
+E:\Traning\ProjectManagmentApp\DataLayer\bin\Debug\net8.0\DataLayer.runtimeconfig.json
+E:\Traning\ProjectManagmentApp\DataLayer\bin\Debug\net8.0\DataLayer.dll
+E:\Traning\ProjectManagmentApp\DataLayer\bin\Debug\net8.0\DataLayer.pdb
+E:\Traning\ProjectManagmentApp\DataLayer\obj\Debug\net8.0\DataLayer.csproj.AssemblyReference.cache
+E:\Traning\ProjectManagmentApp\DataLayer\obj\Debug\net8.0\DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+E:\Traning\ProjectManagmentApp\DataLayer\obj\Debug\net8.0\DataLayer.AssemblyInfoInputs.cache
+E:\Traning\ProjectManagmentApp\DataLayer\obj\Debug\net8.0\DataLayer.AssemblyInfo.cs
+E:\Traning\ProjectManagmentApp\DataLayer\obj\Debug\net8.0\DataLayer.csproj.CoreCompileInputs.cache
+E:\Traning\ProjectManagmentApp\DataLayer\obj\Debug\net8.0\DataLayer.dll
+E:\Traning\ProjectManagmentApp\DataLayer\obj\Debug\net8.0\refint\DataLayer.dll
+E:\Traning\ProjectManagmentApp\DataLayer\obj\Debug\net8.0\DataLayer.pdb
+E:\Traning\ProjectManagmentApp\DataLayer\obj\Debug\net8.0\DataLayer.genruntimeconfig.cache
+E:\Traning\ProjectManagmentApp\DataLayer\obj\Debug\net8.0\ref\DataLayer.dll
